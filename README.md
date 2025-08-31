@@ -18,22 +18,23 @@ Users can:
 - **Responsive UI** → Tailwind CSS styling
 
 ---
-
 ## 📂 Project Structure
 
+```bash
 src/
-├── assets/ # Static assets (if any)
-├── components/ # Reusable components
-│ ├── Card.vue # Single meal card
-│ ├── SearchBar.vue # Search input
-│ ├── CategoryFilter.vue # Dropdown category filter
-│ └── MealDetail.vue # Meal details page
-├── pages/
-│ ├── Home.vue # Search + filter + meal list
-│ └── Meal.vue # Wraps MealDetail component
-├── App.vue # Root app with <RouterView/>
-├── main.js # Vue app entry point
-└── router/ # Vue Router config
+ ├── assets/                 # Static assets (images, icons, etc.)
+ ├── components/             # Reusable components
+ │    ├── Card.vue           # Single meal card component
+ │    ├── SearchBar.vue      # Search input field
+ │    ├── CategoryFilter.vue # Dropdown category filter
+ │    └── MealDetail.vue     # Detailed meal page component
+ ├── pages/                  
+ │    ├── Home.vue           # Home page (search + filter + meal list)
+ │    └── Meal.vue           # Page wrapper for meal details
+ ├── App.vue                 # Root app component with <RouterView/>
+ ├── main.js                 # Vue app entry point
+ └── router/                 # Vue Router configuration
+
 
 
 ---
