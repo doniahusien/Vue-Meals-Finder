@@ -18,6 +18,17 @@ Users can:
 - **Responsive UI** → Tailwind CSS styling
 
 ---
+## 🛠️ Tech Stack
+
+- [Vue 3](https://vuejs.org/) with `<script setup>`
+- [Vite](https://vitejs.dev/) for bundling
+- [Vue Router](https://router.vuejs.org/) for navigation
+- [Tailwind CSS](https://tailwindcss.com/) for styling
+- [Axios](https://axios-http.com/) for API requests
+- [TheMealDB API](https://www.themealdb.com/api.php) as the data source
+
+---
+
 ## 📂 Project Structure
 
 ```bash
@@ -39,12 +50,4 @@ src/
 
 ---
 
-## 🛠️ Tech Stack
-
-- [Vue 3](https://vuejs.org/) with `<script setup>`
-- [Vite](https://vitejs.dev/) for bundling
-- [Vue Router](https://router.vuejs.org/) for navigation
-- [Tailwind CSS](https://tailwindcss.com/) for styling
-- [Axios](https://axios-http.com/) for API requests
-- [TheMealDB API](https://www.themealdb.com/api.php) as the data source
 
